@@ -25,19 +25,64 @@ li {
 
 .main {
   padding: 60px 50px;
+  background-image: url(Terrarium.jpeg);
+  background-size: cover;
 }
 
 .copy-container{
 color:orange;
+text-align: center;
+margin-top: 10px;
 }
 
 .copy-container h1 {
-  font-size: 90px;
+  font-size: 60px;
+
 }
 
 .copy-container h2 {
-  font-size: 75px;
+  font-size: 40px;
 }
 .copy-container span {
   color: #ff4a4a;
+}
+
+.contact-form h3 {
+  color: #FFFF00;
+}
+.contact-form {
+  padding-top: 60px;
+  text-align: center;
+}
+
+.contact-form p {
+  color: #ff0000;
+}
+
+input{
+  width: 300px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 20px;
+  border: 2px solid #adff2f;
+}
+
+.contact-submit {
+  background-color: #00FFFF;
+  text-align: center;
+
+}
+
+.footer {
+  background-color: #ceccf3;
+  height: 100px;
+
+  font-size: 30px;
+}
+
+.footer-list{
+  text-align: right;
+  margin-right: 10px;
+  font-size: 20px
 }
